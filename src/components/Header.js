@@ -7,7 +7,7 @@ export default function Header() {
       <div>
         <Link href="/">
           <a aria-label="Blog Home" className="flex items-center font-semibold">
-            <img src={profileImg} className="w-12 h-12 rounded-full shadow mr-4" />
+            <img src={profileImg} className="w-12 h-12 rounded-full mr-4" />
             Randall Pace
           </a>
         </Link>
