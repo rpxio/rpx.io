@@ -3,4 +3,10 @@
 /* purgecss end ignore */
 
 @tailwind components;
+
+html,
+body {
+  @apply dark:bg-black dark:text-white;
+}
+
 @tailwind utilities;
