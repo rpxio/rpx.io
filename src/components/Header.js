@@ -7,7 +7,7 @@ export default function Header() {
       <div class="flex items-center">
         <Link href="/">
           <a aria-label="Blog Home" className="flex items-center font-semibold mr-8">
-            <img src={profileImg} className="sm:w-32 sm:h-32 h-16 w-16 rounded-full" />
+            <img src={profileImg} className="sm:w-32 sm:h-32 h-20 w-20 rounded-full" />
           </a>
         </Link>
         <div className="space-y-0 sm:space-y-2">
