@@ -3,7 +3,7 @@ import profileImg from '@/img/randall.jpg'
 
 export default function Header() {
   return (
-    <header className="mx-auto container py-6">
+    <header className="mx-auto container py-4 sm:py-10">
       <div class="flex items-center">
         <Link href="/">
           <a aria-label="Blog Home" className="flex items-center font-semibold mr-8">
